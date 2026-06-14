@@ -1,0 +1,12 @@
+/damage @s
+/damage @s 2
+/kill
+/damage @a 5
+/damage @s 5
+/damage @s 2
+/kill
+/damage @s 2
+/kill
+/damage @s 2
+/damage @s 1
+/damage @s 2

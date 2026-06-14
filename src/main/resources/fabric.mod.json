@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "idk",
+  "version": "${version}",
+  "name": "Idk",
+  "description": "damn",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/idk/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.Cooltechno.idk.client.IdkClient"
+    ],
+    "main": [
+      "de.Cooltechno.idk.Idk"
+    ],
+    "modmenu": [ "de.Cooltechno.idk.client.ModMenuIntegration" ]
+  },
+  "mixins": [
+    "idk.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
